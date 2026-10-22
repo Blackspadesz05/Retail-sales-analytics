@@ -5,3 +5,10 @@ venv/
 .env
 .DS_Store
 Thumbs.db
+
+
+# Ignore the original raw dataset
+data/raw/
+# Keep the cleaned dataset tracked
+!data/cleaned/
+!data/cleaned/*.csv
